@@ -1,0 +1,1524 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "aisa-arabic_fc",
+  "dataset_size": 282991988,
+  "description": "",
+  "download_size": 11253269,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "requires_function": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "tool_called": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "messages": {
+      "feature": {
+        "_think_for_train": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "think": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "tool_calls": {
+          "feature": {
+            "function": {
+              "arguments": {
+                "amount": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                },
+                "bank_name": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "category": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "check_in": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "check_out": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "city": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "country": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "currency": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "date": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "days": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                },
+                "departure_city": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "departure_date": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "destination_country": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "doctor_name": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "from_currency": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "guests": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                },
+                "id_number": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "insurance_number": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "iqama_number": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "items": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "medication_name": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "nationality": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "num_persons": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                },
+                "passport_number": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "procedure": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "product_name": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "product_value": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                },
+                "query": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "recipient_iban": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "recipient_name": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "restaurant": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "salary": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                },
+                "search_type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "specialty": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "target_language": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "termination_type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "text": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "to_currency": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "visa_number": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "years_of_service": {
+                  "dtype": "float64",
+                  "_type": "Value"
+                }
+              },
+              "name": {
+                "dtype": "string",
+                "_type": "Value"
+              }
+            }
+          },
+          "_type": "List"
+        }
+      },
+      "_type": "List"
+    },
+    "tools": {
+      "feature": {
+        "function": {
+          "description": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "name": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "parameters": {
+            "properties": {
+              "amount": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "bank_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "border_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "category": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "check_in": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "check_out": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "city": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "country": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "currency": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "date": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "days": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "deceased_gender": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "delivery_address": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "departure_city": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "departure_date": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "destination": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "destination_country": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "doctor_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "duration_days": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "estate_value": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "from_currency": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "guests": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "heirs": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "items": {
+                  "type": {
+                    "dtype": "string",
+                    "_type": "Value"
+                  }
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "hotel_rating": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "id_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "insurance_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "iqama_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "items": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "latitude": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "longitude": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "medication_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "mode": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "nationality": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "num_persons": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "origin": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "passport_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "plate_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "procedure": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "product_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "product_value": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "query": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "recipient_iban": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "recipient_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "restaurant": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "salary": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "search_type": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "source_language": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "specialty": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "stars": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "surah_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "target_language": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "termination_type": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "text": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "timezone": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "to_currency": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "type": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "visa_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "weight_unit": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "years_of_service": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              }
+            },
+            "required": {
+              "feature": {
+                "dtype": "null",
+                "_type": "Value"
+              },
+              "_type": "List"
+            },
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          }
+        }
+      },
+      "_type": "List"
+    },
+    "tools_sampled": {
+      "feature": {
+        "function": {
+          "description": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "name": {
+            "dtype": "string",
+            "_type": "Value"
+          },
+          "parameters": {
+            "properties": {
+              "amount": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "bank_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "border_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "category": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "check_in": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "check_out": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "city": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "country": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "currency": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "date": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "days": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "deceased_gender": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "delivery_address": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "departure_city": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "departure_date": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "destination": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "destination_country": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "doctor_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "duration_days": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "estate_value": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "from_currency": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "guests": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "heirs": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "items": {
+                  "type": {
+                    "dtype": "string",
+                    "_type": "Value"
+                  }
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "hotel_rating": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "id_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "insurance_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "iqama_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "items": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "latitude": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "longitude": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "medication_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "mode": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "nationality": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "num_persons": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "origin": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "passport_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "plate_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "procedure": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "product_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "product_value": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "query": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "recipient_iban": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "recipient_name": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "restaurant": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "salary": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "search_type": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "source_language": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "specialty": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "stars": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "surah_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "target_language": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "termination_type": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "text": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "timezone": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "to_currency": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "type": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "visa_number": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "weight_unit": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "years_of_service": {
+                "description": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "type": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              }
+            },
+            "required": {
+              "feature": {
+                "dtype": "null",
+                "_type": "Value"
+              },
+              "_type": "List"
+            },
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          }
+        }
+      },
+      "_type": "List"
+    },
+    "negative_category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dialect": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 294245257,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 269240194,
+      "num_examples": 10550,
+      "dataset_name": "aisa-arabic_fc"
+    },
+    "dev": {
+      "name": "dev",
+      "num_bytes": 13751794,
+      "num_examples": 545,
+      "dataset_name": "aisa-arabic_fc"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

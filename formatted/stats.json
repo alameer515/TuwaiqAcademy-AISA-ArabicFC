@@ -1,0 +1,52 @@
+{
+  "train_track_b": {
+    "num_examples": 1525,
+    "tool_counts": {
+      "get_qibla_direction": 519,
+      "search_quran": 506,
+      "calculate_zakat": 500
+    },
+    "dialect_counts": {
+      "msa": 854,
+      "egyptian": 202,
+      "maghrebi": 13,
+      "levantine": 342,
+      "gulf": 114
+    }
+  },
+  "train_track_a": {
+    "num_examples": 1525,
+    "tool_counts": {
+      "get_qibla_direction": 519,
+      "search_quran": 506,
+      "calculate_zakat": 500
+    },
+    "dialect_counts": {
+      "msa": 854,
+      "egyptian": 202,
+      "maghrebi": 13,
+      "levantine": 342,
+      "gulf": 114
+    }
+  },
+  "dev_eval": {
+    "num_examples": 73,
+    "tool_counts": {
+      "get_qibla_direction": 25,
+      "calculate_zakat": 24,
+      "search_quran": 24
+    },
+    "dialect_counts": {
+      "msa": 44,
+      "levantine": 12,
+      "egyptian": 10,
+      "gulf": 5,
+      "maghrebi": 2
+    }
+  },
+  "notes": [
+    "Track B includes <think> before the function call.",
+    "Track A keeps only the Gemma function-call block.",
+    "calculate_inheritance has 0 gold examples in the source dataset."
+  ]
+}

@@ -1,0 +1,4 @@
+run_name,lora_r,lora_alpha,lr,epochs,eval_loss,checkpoint_dir
+islamic_track_b_run2_r16_lr0.0001,16,32,0.0001,5,0.30447855591773987,runs/islamic_track_b_run2_r16_lr0.0001/best_checkpoint
+islamic_track_b_run1_r16_lr0.0002,16,32,0.0002,3,0.3065910339355469,runs/islamic_track_b_run1_r16_lr0.0002/best_checkpoint
+islamic_track_b_run0_r8_lr0.0002,8,16,0.0002,3,0.3188142776489258,runs/islamic_track_b_run0_r8_lr0.0002/best_checkpoint
